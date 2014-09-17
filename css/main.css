@@ -38,8 +38,11 @@ img {
 }
 
 .title {
-  margin-left: 5em;
-    
+  margin-left: 5em;  
+}
+
+.main {
+    background: #ccc;
 }
 
 
