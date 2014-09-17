@@ -38,6 +38,10 @@ img {
     color: blue;  
 }
 
+.nav a {
+    text-decoration: none;
+}
+
 .title {
   margin-left: 5em;  
 }
