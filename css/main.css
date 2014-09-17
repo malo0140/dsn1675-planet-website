@@ -44,7 +44,7 @@ img {
 
 .title {
   text-align: center;
-    
+  margin: 0;   
 }
 
 .background {
@@ -66,16 +66,11 @@ img {
 
 @media only screen and (min-width: 44.93em) {
     
-    .nav {
-        float: left;
-        width: 30%;
-    } 
-    
     .title {
         float: left;
     }
     
-    .nav li {
-        display: inline-block;
+    .nav {
+        float: left
     }
 }
