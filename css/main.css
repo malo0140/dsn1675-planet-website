@@ -23,7 +23,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #ccc;
 }
 
 img {
@@ -35,6 +34,7 @@ img {
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 .title {
