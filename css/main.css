@@ -50,14 +50,15 @@ img {
     background: #ccc;
 }
 
-@media only screen and (min-width: 15em) {
+@media only screen and (min-width:15em) {
     
     .nav {
-        text-align: center;
+        float: left;
+        width: 30%;
     } 
     
     .nav li {
-        display: inline-block;
-        border: 0;
+        display: block;
+        border-top: : 1px solid #666;
     }
 
