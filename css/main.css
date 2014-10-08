@@ -34,7 +34,8 @@ img {
 .nav {
     padding: 0;
     list-style: none;
-    color: blue;  
+    color: blue;
+    text-decoration: none;
 }
 
 .nav a {
@@ -47,9 +48,21 @@ img {
 }
 
 .background {
-    background-color: #ccc;
+    background-color: #E0E0E0;
     overflow: hidden;
     
+}
+
+.listcolor {
+    background-color: #E8E8E8 ;
+}
+
+.imgcolor {
+    background-color:#F0F0F0 ;
+}
+
+.footer {
+ text-decoration: none;
 }
 
 @media only screen and (min-width: 30em) {
