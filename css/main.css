@@ -9,7 +9,6 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -23,67 +22,79 @@ html {
 body {
   margin: 0;
   padding: 0;
-
 }
 
-img {
+.img-flex {
   display: block;
   width: 100%;
 }
 
-.nav {
-    padding: 0;
-    list-style: none;
-    color: blue;
-    text-decoration: none;
-}
-
-.nav a {
-    text-decoration: none;
+.masthead {
+  overflow: hidden;
 }
 
 .title {
   text-align: center;
-  margin: 0;   
 }
 
-.background {
-    background-color: #E0E0E0;
-    overflow: hidden;
-    
+.nav {
+  padding: 0;
 }
 
-.listcolor {
-    background-color: #E8E8E8 ;
+.nav li {
+  display: block;
 }
 
-.imgcolor {
-    background-color:#F0F0F0 ;
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+
+  color: #0074D9;
+  text-decoration: none;
 }
 
-.footer {
- text-decoration: none;
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  background-color: #0074D9;
+
+  color: #fff;
 }
 
-@media only screen and (min-width: 30em) {
-    
-    .nav {
-        text-align: center;
-    }
-    
-     .nav li {
-        display: inline-block;
-        border: 0;
-        margin-right:1rem;
-    }   
+.section-dark {
+  background-color: #ccc;
+}
 
-@media only screen and (min-width: 44.93em) {
-    
-    .title {
-        float: left;
-    }
-    
-    .nav {
-        float: left
-    }
+.section-mid {
+  background-color: #e2e2e2;
+}
+
+.section {
+  background-color: #efefef;
+}
+
+.intro {
+  text-align: center;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .title,
+  .nav {
+    text-align: left;
+  }
+
 }
