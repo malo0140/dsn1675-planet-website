@@ -15,6 +15,24 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width:60em) {
+    
+    html {
+        font-size: 110%;
+}
+
+@media only screen and (min-width:90em) {
+ 
+      html {
+        font-size: 120%;
+}
+    
+@media only screen and (min-width:120em) {
+
+      html {
+        font-size: 130%;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -92,9 +110,12 @@ body {
 
 @media only screen and (min-width: 38em) {
 
-  .title,
-  .nav {
+  .title,.nav {
     text-align: left;
   }
-
+    
+}
+    
+@media only screen and (min-width: 60em) {
+    
 }
