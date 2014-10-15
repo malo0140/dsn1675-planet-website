@@ -19,18 +19,21 @@ html {
     
     html {
         font-size: 110%;
+    }
 }
 
 @media only screen and (min-width:90em) {
  
       html {
         font-size: 120%;
+      }
 }
     
 @media only screen and (min-width:120em) {
 
       html {
         font-size: 130%;
+      }
 }
 
 *, *:before, *:after {
@@ -96,26 +99,76 @@ body {
   text-align: center;
 }
 
+.span {
+    display: none;
+}
+
 @media only screen and (min-width: 25em) {
 
-  .nav {
-    text-align: center;
-  }
+      .nav {
+        text-align: center;
+      }
 
-  .nav li {
-    display: inline-block;
-  }
+      .nav li {
+        display: inline-block;
+      }
+     .footer {
+         text-align: center;
+     }
+     .copyright {
+         text-align: center;
+        }
+
+    .span {
+        display:inline-block;
+    }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-  .title,.nav {
-    text-align: left;
-  }
-    
+      .title,.nav {
+        text-align: left;
+      }
+
+     .nav-footer{
+         text-align: right;
+     }
+
+    .copyright {
+        text-align: left;
+    }
+
+    .span {
+        display:inline-block;
+    }
 }
     
 @media only screen and (min-width: 60em) {
+   
+    .nav-footer{
+         text-align: right;
+     }
+
+    .copyright {
+        text-align: left;
+    }
+
+    dt {
+        float: left;
+        width: 50%;
+    }
     
+    dd{
+        float: left;
+        width: 50%;
+    }
+  
+    .span {
+        display:inline-block;
+    }
+    
+    .space {
+        padding-left: 5%;
+    }
 }
