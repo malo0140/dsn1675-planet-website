@@ -164,10 +164,6 @@ a:focus {
         text-align: left;
     }
 
-    .span {
-        display:inline-block;
-        padding-left:1em; 
-    }
 }
     
 @media only screen and (min-width: 60em) {
