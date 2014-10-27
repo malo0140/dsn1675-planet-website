@@ -125,6 +125,7 @@ a:focus {
 
 .span {
     display: none;
+    
 }
 
 @media only screen and (min-width: 25em) {
@@ -165,6 +166,7 @@ a:focus {
 
     .span {
         display:inline-block;
+        padding-left:1em; 
     }
 }
     
