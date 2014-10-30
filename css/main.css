@@ -128,6 +128,46 @@ a:focus {
     
 }
 
+lable {
+    display: inline-block;
+    width: 100%;
+}
+
+input + lable {
+    display: inline-block;
+}
+
+.p {
+    text-align: center;
+    padding: none;
+    margin: none;
+}
+
+textarea {
+    width: 100%;
+    height: 20em;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
+.boxlength {
+    width: 100%;
+    height: 3em;
+}
+
+form {
+    max-width: 35em;
+    margin:0 auto;
+}
+
+button {
+ font-size: 0.55em;
+    border: 3px solid #000
+    font-family: sans-serif;  
+}
+
 @media only screen and (min-width: 25em) {
 
       .nav {
@@ -147,6 +187,7 @@ a:focus {
     .span {
         display:inline-block;
     }
+    
 
 }
 
